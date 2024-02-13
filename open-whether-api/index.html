@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://unpkg.com/japan-map-js@1.0.1/dist/jpmap.min.js"></script>
+    <script type="text/javascript" src="dist/jpmap.min.js"></script>
+</head>
+<body>
+    
+    <div id="content">
+        <div id="weather_content">
+            <div id="clock">
+                <h1 id="RealtimeClockArea"></h1>
+            </div>
+            <h1 id="now">現在の天気</h1>
+            <div class="wrapper">
+                <h1 id="name">東京</h1>
+                <div id="weatherIcon"></div>
+                <p id="weather"></p>
+                <div>
+                    <p>気温:<span id="temperature"></span>°C</p>
+                    <p>最高気温：<span id="temperatureMax"></span>°C</p>
+                    <p>最低気温：<span id="temperatureMin"></span>°C</p>    
+                </div> 
+            </div>
+        </div>
+        
+        <div class="office">
+            <div id="my-map"></div>
+            <p>都道府県を選択して天気を見てみましょう</p>
+        </div>
+    </div>
+    <div id="weather3">
+        <h2>詳しい天気</h2>
+    <table>
+        <tr>
+            <th>湿度</th>
+            <th>体感温度</th>
+            <th>大気圧(hPa)</th>
+            <th>風速</th>
+            <th>風向き</th>
+            <th>曇り</th>
+            <th>日の出時刻</th>
+            <th>日没時間</th>
+        </tr>
+        <tr>
+            <td><span id="humidity"></span>%</td>
+            <td><span id="feels_like"></span>℃</td>
+            <td><span id="pressure"></span>hPa</td>
+            <td><span id="speed"></span>m/s</td>
+            <td><span id="deg"></span>°</td>
+            <td><span id="clouds"></span>%</td>
+            <td><span id="sunrise"></span></td>
+            <td><span id="sunset"></span></td>
+            
+        </tr>
+    </table>
+    </div>
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

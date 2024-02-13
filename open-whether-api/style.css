@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    display: flex;
+}
+
+#weather_content{
+    text-align: center;
+    width: 250px;
+    height: 100%;
+}
+
+.office{
+    background-image: url('./img/weather.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 630px;
+    background-size:  cover;
+}
+
+.office p{
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+}
+
+#my-map{
+    background: linear-gradient(to top, blue, blue, white);
+    width: 800px;
+    margin: 40px auto 0 auto;
+    border: solid #5e5e5e 3px;
+}
+
+#clock{
+    width: 250px;
+    height: 120px;
+    background-color: #0074E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#RealtimeClockArea{
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+#weather3{
+    background-color: #0074E0;
+}
+
+#weather3 h2{
+    color: #ffffff;
+    padding: 8px 0 8px 30px;
+    font-size: 16px;
+}
+
+table{
+    width: 100%;
+    border-collapse:separate;
+    border-spacing: 0;
+  }
+
+table th,td{
+    text-align: center;
+    color: #000000;
+    background-color: #b9b6b6;
+    border-left: 1px solid #3c6690;
+    /* border-top: 1px solid #3c6690; */
+    width: 6.25%;
+    padding: 12px 0;
+    }
+
+table td{
+    background-color: #ffffff;
+    padding: 24px 0;
+}
+
+.wrapper h1{
+    margin: 10px 0;
+}
+
+.wrapper p{
+    margin-bottom: 18px;
+}
+.wrapper div{
+    margin: 18px 0;
+}
+
+#now{
+    font-size: 28px;
+    padding: 20px;
+}
